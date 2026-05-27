@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Wine glass bowl: tulip shape, dark burgundy -->
+  <path d="M 140 96
+           L 140 224
+           Q 140 320 256 320
+           Q 372 320 372 224
+           L 372 96
+           Z"
+        fill="#5C1B26" />
+
+  <!-- Stem -->
+  <rect x="244" y="320" width="24" height="80" fill="#5C1B26" />
+
+  <!-- Base -->
+  <rect x="156" y="400" width="200" height="22" rx="6" fill="#5C1B26" />
+
+  <!-- Bar chart inside the bowl: 4 ascending bars in cream -->
+  <rect x="181" y="180" width="30" height="40" rx="3" fill="#F4D7B5" />
+  <rect x="221" y="160" width="30" height="60" rx="3" fill="#F4D7B5" />
+  <rect x="261" y="140" width="30" height="80" rx="3" fill="#F4D7B5" />
+  <rect x="301" y="120" width="30" height="100" rx="3" fill="#F4D7B5" />
+</svg>

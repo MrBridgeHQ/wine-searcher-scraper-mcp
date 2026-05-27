@@ -1,0 +1,17 @@
+{
+  "_comment": "Add this entry to your Claude Desktop MCP config. macOS: ~/Library/Application Support/Claude/claude_desktop_config.json — Windows: %APPDATA%\\Claude\\claude_desktop_config.json — Linux: ~/.config/Claude/claude_desktop_config.json",
+  "mcpServers": {
+    "wine-searcher": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "mrbridge/wine-searcher-scraper-from-list"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
