@@ -1,4 +1,4 @@
-# Wine-Searcher MCP — LWIN Pricing & Scores for Wine Trade
+# Wine-Searcher MCP - LWIN Pricing & Scores for Wine Trade
 
 [![Listed on mcpmarket.com](https://img.shields.io/badge/Listed_on-mcpmarket.com-blue)](https://mcpmarket.com/server/wine-searcher-mcp)
 [![Apify Actor](https://img.shields.io/badge/Apify-Actor-orange)](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge)
@@ -22,7 +22,7 @@ The actual scraping logic, anti-detection stack, and proxy management live in th
 1. [Get a free Apify token](https://apify.com/?fpr=mrbridge) ($5 in starter credits = ~200 wines)
 2. Copy the config snippet for your client (e.g. [Claude Desktop](examples/claude-desktop.json))
 3. Set `APIFY_TOKEN` in your environment
-4. Restart your MCP client — Wine-Searcher tools are now available to your AI agent
+4. Restart your MCP client - Wine-Searcher tools are now available to your AI agent
 
 ## Example queries to ask your AI
 
@@ -60,7 +60,7 @@ Full output schema documented on the [Apify Actor page](https://apify.com/mrbrid
 ## Limitations
 
 - Max 1000 wines per single MCP call (large lists → batch)
-- Public listings only — no authenticated Wine-Searcher account features
+- Public listings only - no authenticated Wine-Searcher account features
 - Per-bottle normalization assumes "Case of N" patterns; non-standard case formats may fall through
 - Excludes auctions, pre-arrival, and "by request" offers from the cheapest-price calculation
 
@@ -74,14 +74,14 @@ Full output schema documented on the [Apify Actor page](https://apify.com/mrbrid
 
 This MCP is part of a wine-data toolkit:
 
-- [Wine-Searcher Grape Scraper](https://apify.com/mrbridge/wine-searcher-grape-scraper?fpr=mrbridge) — discover wines by grape variety
-- [Vivino Wine Data Scraper](https://apify.com/mrbridge/vivino-wine-data-scraper?fpr=mrbridge) — Vivino ratings + taste profiles
-- [Millesima Wine Scraper](https://apify.com/mrbridge/millesima-wine-scraper?fpr=mrbridge) — Millesima.fr prices and critic ratings
+- [Wine-Searcher Grape Scraper](https://apify.com/mrbridge/wine-searcher-grape-scraper?fpr=mrbridge) - discover wines by grape variety
+- [Vivino Wine Data Scraper](https://apify.com/mrbridge/vivino-wine-data-scraper?fpr=mrbridge) - Vivino ratings + taste profiles
+- [Millesima Wine Scraper](https://apify.com/mrbridge/millesima-wine-scraper?fpr=mrbridge) - Millesima.fr prices and critic ratings
 
 All powered by [Apify](https://apify.com/mrbridge?fpr=mrbridge).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
 
 The MIT license covers this configuration repo only. The underlying Apify Actor is proprietary; usage governed by [Apify's Terms of Service](https://apify.com/terms?fpr=mrbridge).
