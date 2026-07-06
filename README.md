@@ -1,12 +1,12 @@
-# Wine-Searcher MCP - LWIN Pricing & Scores for Wine Trade
+# Wine-Searcher Scraper - LWIN Pricing & Scores for Wine Trade
 
 [![Listed on mcpmarket.com](https://img.shields.io/badge/Listed_on-mcpmarket.com-blue)](https://mcpmarket.com/server/wine-searcher-mcp)
 [![Apify Actor](https://img.shields.io/badge/Apify-Actor-orange)](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Public configuration + documentation for the **Wine-Searcher MCP**, a Model Context Protocol bridge to the [`mrbridge/wine-searcher-scraper-from-list`](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge) Apify Actor.
+Public configuration + documentation for the **Wine-Searcher Scraper**, the [`mrbridge/wine-searcher-scraper-from-list`](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge) Apify Actor.
 
-Look up wine pricing, critic scores, and popularity rankings from Wine-Searcher directly inside Claude, Cursor, Cline, or any MCP client. Pay only for successfully extracted wines ($0.025/wine, success-only billing).
+Look up wine pricing, critic scores, and popularity rankings from Wine-Searcher. Run the scraper from the Apify Console or API, or query it directly inside Claude, Cursor, Cline, or any MCP client via Apify's MCP gateway. Pay only for successfully extracted wines ($0.025/wine, success-only billing).
 
 ## What's in this repo
 
@@ -22,7 +22,7 @@ The actual scraping logic, anti-detection stack, and proxy management live in th
 1. [Get a free Apify token](https://apify.com/?fpr=mrbridge) ($5 in starter credits = ~200 wines)
 2. Copy the config snippet for your client (e.g. [Claude Desktop](examples/claude-desktop.json))
 3. Set `APIFY_TOKEN` in your environment
-4. Restart your MCP client - Wine-Searcher tools are now available to your AI agent
+4. Restart your MCP client - the Wine-Searcher scraper is now available to your AI agent
 
 ## Example queries to ask your AI
 
@@ -69,10 +69,11 @@ Full output schema documented on the [Apify Actor page](https://apify.com/mrbrid
 - **Bug reports**: open a [GitHub Issue](https://github.com/MrBridgeHQ/wine-searcher-scraper-mcp/issues)
 - **Feature requests**: same, with the `enhancement` label
 - **Commercial integrations**: contact via the [Apify Actor support form](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge)
+- **Full documentation**: [mr-bridge.com/solutions/wine-searcher-scraper-from-list](https://mr-bridge.com/solutions/wine-searcher-scraper-from-list)
 
 ## Related projects
 
-This MCP is part of a wine-data toolkit:
+This scraper is part of a wine-data toolkit:
 
 - [Wine-Searcher Grape Scraper](https://apify.com/mrbridge/wine-searcher-grape-scraper?fpr=mrbridge) - discover wines by grape variety
 - [Vivino Wine Data Scraper](https://apify.com/mrbridge/vivino-wine-data-scraper?fpr=mrbridge) - Vivino ratings + taste profiles
