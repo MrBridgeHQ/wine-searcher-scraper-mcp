@@ -66,7 +66,7 @@ Full output schema documented on the [Apify Actor page](https://apify.com/mrbrid
 
 ## Support
 
-- **Bug reports**: open a [GitHub Issue](https://github.com/MrBridgeHQ/wine-searcher-scraper-mcp/issues)
+- **Bug reports**: open a [GitHub Issue](https://github.com/MrBridgeHQ/wine-searcher-scraper/issues)
 - **Feature requests**: same, with the `enhancement` label
 - **Commercial integrations**: contact via the [Apify Actor support form](https://apify.com/mrbridge/wine-searcher-scraper-from-list?fpr=mrbridge)
 - **Full documentation**: [mr-bridge.com/solutions/wine-searcher-scraper-from-list](https://mr-bridge.com/solutions/wine-searcher-scraper-from-list)
